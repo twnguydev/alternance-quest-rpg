@@ -9,4 +9,4 @@ export const SCENE_KEYS = Object.freeze({
     LOSE_SCENE: 'LOSE_SCENE',
 });
 
-export const __dirname = 'http://localhost:8888';
+export const __dirname = 'https://tanguygibrat.fr/projets/alternance-quest';

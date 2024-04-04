@@ -7,7 +7,7 @@ export const recruiterCharacters = [
         name: 'Recruiter 1',
         sprite: 'assets/chars/char_recruiter1.png',
         initial_face: 'down',
-        logo: 'assets/companies/voyageprive.png',
+        logo: '',
         health: 100,
         company: "Voyage Privé",
         building_keys: {
@@ -21,7 +21,7 @@ export const recruiterCharacters = [
         name: 'Recruiter 2',
         sprite: 'assets/chars/char_recruiter2.png',
         initial_face: 'down',
-        logo: 'assets/companies/capgemini.png',
+        logo: '',
         health: 100,
         company: "Capgemini",
         building_keys: {
@@ -34,7 +34,7 @@ export const recruiterCharacters = [
         name: 'Enzo Scaduto',
         sprite: 'assets/chars/char_recruiter4.png',
         initial_face: 'down',
-        logo: 'assets/companies/oxy.png',
+        logo: '',
         health: 100,
         company: "Oxy Development",
         building_keys: {
@@ -47,7 +47,7 @@ export const recruiterCharacters = [
         name: 'Recruiter 4',
         sprite: 'assets/chars/char_recruiter6.png',
         initial_face: 'down',
-        logo: 'assets/companies/thales.png',
+        logo: '',
         health: 100,
         company: "Thales",
         building_keys: {

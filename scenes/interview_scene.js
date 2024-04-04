@@ -25,10 +25,6 @@ export class InterviewScene extends Phaser.Scene {
         this.load.image('interview-ground', `${__dirname}/assets/map/interview-room.png`);
         this.load.image('col', `${__dirname}/assets/map/col.png`);
 
-        recruiterCharacters.forEach(recruiter => {
-            this.load.image(recruiter.company, recruiter.logo);
-        });
-
         Character.preload(this);
     }
 
@@ -74,8 +70,6 @@ export class InterviewScene extends Phaser.Scene {
         this.makeTweens(this.recruiter, 1);
 
         this.recruiter.health = recruiterData.health;
-
-        this.add.image(500, 550, recruiterData.company).setScale(1).setDepth(1).setRotation(0.5);
 
         this.dialogManager = new DialogManager(this);
         this.recruiterDialog = this.dialogManager.showDialog(-20, 50, this.recruiter, `Bonjour, je suis ${this.recruiter.name} de\n${this.recruiter.company}. Mettez-vous à l'aise.\nNous allons commencer\ndans quelques instants.`);
